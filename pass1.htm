@@ -26,18 +26,8 @@ body {
     font-family: sans-serif;
 
     /* 背景画像 */
-    background: url("note01.gif") repeat;
+    background: url("note.gif") repeat;
 }
-
-
-<a href="../../index.htm" target="_top">
-
-    <img src="pic/modoru.png"  width="150" heigt="auto" >
-
-</a>
-
-
-
 
 
 
@@ -96,14 +86,14 @@ button {
 
 <script>
 function checkPassword() {
-    const correctPassword = "9280";
+    const correctPassword = "3535";
     const passwordInput = document.getElementById("password");
     const errorMessage = document.getElementById("error-message");
 
     if (passwordInput.value === correctPassword) {
 
         // 下の x フォルダーにある index.htm へ移動
-        window.location.href = "x/index.htm";
+        window.location.href = "x/shounen/shounen.htm";
 
     } else {
         errorMessage.textContent =
