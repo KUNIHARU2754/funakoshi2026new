@@ -1,20 +1,19 @@
-<!DOCTYPE html>
+<!doctype html public "_//w3c//dtd html 4.0 frameset//en" "http://www.w3c.org/tr/rec-html40/frameset.dtd">
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>world photo austlia</title>
-<style>
-html, body { margin:0; width:100%; height:100%; overflow:hidden; }
-.frame-layout { display:grid; grid-template-rows:1px 65px 1fr; width:100%; height:100%; }
-iframe { width:100%; height:100%; border:0; display:block; }
-</style>
+  <title>world photo austlia</title>
 </head>
-<body>
-<div class="frame-layout">
-  <iframe src="../../cgi-bin/counter/inquire.pl?page=W_AUSTLIA" name="in" scrolling="no" title="world photo austlia"></iframe>
-  <iframe src="../mokuji/world01m.htm" name="moku" scrolling="no" title="world photo austlia"></iframe>
-  <iframe src="../nation/world06.htm" name="honbun" title="world photo austlia"></iframe>
-</div>
-</body>
+
+<frameset rows="1,65,*" frameborder="0" border="0" framespacing="0" >
+
+ <frame src="../mokuji/world01m.htm" name="moku"    border="0"  scrolling="no" >
+ <frame src="../nation/world06.htm"  name="honbun"  border="0"                 >
+</frameset>
+
+<noframes>
+</noframes>
 </html>
+
+
+
+

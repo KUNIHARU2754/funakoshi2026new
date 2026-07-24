@@ -1,18 +1,18 @@
-<!doctype html>
+<!doctype html public "_//w3c//dtd html 4.0 frameset//en" "http://www.w3c.org/tr/rec-html40/frameset.dtd">
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<title>world photo</title>
-<style>
-html, body { margin:0; padding:0; width:100%; height:100%; overflow:hidden; }
-.frame-layout { display:grid; grid-template-rows:40px 1fr; width:100%; height:100vh; }
-iframe { display:block; width:100%; height:100%; border:0; }
-</style>
+  <title>world photo</title>
 </head>
-<body>
-<div class="frame-layout">
-  <iframe src="../mokuji/world02m.htm" name="moku" scrolling="no"></iframe>
-  <iframe src="../nation/world10.htm" name="honbun" scrolling="auto"></iframe>
-</div>
-</body>
+
+<frameset rows="40,*" frameborder="0" border="0" framespacing="0" >
+ <frame src="../mokuji/world02m.htm" name="moku"    border="0"  scrolling="no" >
+ <frame src="../nation/world10.htm"  name="honbun"  border="0"                 >
+</frameset>
+
+<noframes>
+</noframes>
 </html>
+
+
+
+
